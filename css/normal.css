@@ -62,6 +62,13 @@ label.light_dark {
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Unageo";
+  src: url(../fonts/Unageo-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
 /**************************
 * MARK: Custom properties
 **************************/
@@ -90,7 +97,7 @@ body {
   margin: 0;
   padding: 3.5rem 1rem 2rem; /* Top padding leaves room for the moon icon */
   background-image: url("../images/Site_background.svg");
-  background-position: center;
+  background-position: left;
   background-repeat: repeat;
 }
 
@@ -122,6 +129,8 @@ p {
   width: 100%;
   max-width: clamp(26em, 26em, 18em);
   line-height: 1.5;
+  font-size: 1em;
+  font-family: "Unageo", system-ui;
 }
 
 input[type="radio"] {
