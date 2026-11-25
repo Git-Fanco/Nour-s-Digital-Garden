@@ -1,3 +1,49 @@
+:root {
+  --gradient-top: light-dark(rgb(212, 242, 248), #262676);
+  --gradient-bottom: light-dark(rgb(71, 182, 207), #0f0f31);
+}
+
+html {
+  color-scheme: light dark;
+  min-height: 100vh;
+  background-image: linear-gradient(
+    var(--gradient-top),
+    var(--gradient-bottom)
+  );
+}
+
+html:has([value="light-theme"]:checked) {
+  color-scheme: light;
+  body {
+    background-image: none;
+  }
+  label.light_dark:nth-of-type(1) {
+    display: none;
+  }
+}
+
+html:has([value="dark-theme"]:checked) {
+  color-scheme: dark;
+  label.light_dark:nth-of-type(2) {
+    display: none;
+  }
+}
+
+label.light_dark {
+  width: fit-content;
+  position: fixed; /* Stays pinned to top-right even when scrolling */
+  top: 2rem;
+  right: 1em;
+  z-index: 100;
+  font-size: clamp(3rem, 6vw, 9rem); /* Scales nicely on mobile */
+  cursor: pointer;
+
+  input {
+    position: absolute; /* Removes invisible radio button width */
+    opacity: 0;
+    pointer-events: none;
+  }
+}
 /**************************
 * MARK: Fonts
 **************************/
@@ -5,6 +51,13 @@
 @font-face {
   font-family: "Comic Relief";
   src: url(../fonts/ComicRelief-Regular.woff2);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Chunko";
+  src: url(../fonts/Chunko\ Bold\ Demo.ttf);
   font-weight: 400;
   font-style: normal;
 }
@@ -32,28 +85,49 @@ img {
 }
 
 body {
-  font-family: "Comic Relief", system-ui;
+  background-color: var(--background);
+  position: relative;
+  margin: 0;
+  padding: 3.5rem 1rem 2rem; /* Top padding leaves room for the moon icon */
+  background-image: url("../images/Site_background.svg");
+  background-position: center;
+  background-repeat: repeat;
 }
 
-/**************************
-* MARK: Header
-**************************/
-
-header {
+h1 {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 500px;
+  font-size: clamp(
+    4rem,
+    18vw,
+    6.25rem
+  ); /* Scales from 36px on mobile to 100px on desktop */
+  font-family: "Chunko", system-ui;
 }
 
-/**************************
-* MARK: Footer
-**************************/
-
-footer {
+h2 {
+  text-align: center;
+  margin: 1em auto 0 auto;
+  width: 100%;
+  max-width: 250px;
+  font-size: clamp(2.5rem, 7vw, 3.125rem);
+  font-family: "Chunko", system-ui;
 }
 
-/**************************
-* MARK: Main
-**************************/
+p {
+  text-align: center;
+  margin: 1rem auto;
+  width: 100%;
+  max-width: clamp(26em, 26em, 18em);
+  line-height: 1.5;
+}
 
-main {
+input[type="radio"] {
+  -ms-transform: scale(2);
+  -webkit-transform: scale(2);
+  transform: scale(2);
 }
 
 /**************************
