@@ -207,3 +207,7 @@ _Welk principe neem je mee in een laatste iteratie van je eigen Garden?_
 visual hierarchy neem ik voor nu me.
 
 # 26/11/2026
+
+Ik heb vandaag wat puntjes om de i gezet voordat ik mijn werk van sprint 1 inlever. Als eerste heb ik de light en dark mode-knop vastgezet aan de bovenkant van de site (ervoor volgend de knop je met het scrollen naar beneden) en ik heb mijn introtekst aangepast en in een naar beneden-pijl gemaakt om mijn bezoekers te nudge naar beneden.
+
+![alt text](<readme-images/Week_2_process (3).png>)

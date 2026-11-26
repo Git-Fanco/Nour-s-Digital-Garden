@@ -65,7 +65,7 @@ label.light_dark {
 
 @font-face {
   font-family: "Unageo";
-  src: url(../fonts/Unageo-Regular.ttf);
+  src: url(../fonts/Unageo-SemiBold.ttf);
   font-weight: 400;
   font-style: normal;
 }
@@ -140,7 +140,7 @@ p {
   width: 100%;
   max-width: clamp(26em, 26em, 18em);
   line-height: 1.5;
-  font-size: 1em;
+  font-size: clamp(0.8em, 0.8em, 1.5em);
   font-family: "Unageo", system-ui;
 }
 
