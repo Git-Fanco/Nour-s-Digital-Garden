@@ -146,7 +146,7 @@ Vandaag heb ik een tot nu toe min stylegude gemaakt voor mijn digitale garden en
 # 20/11/2026
 
 _Welke feedback heb je gehad?_
-Ik heb als feedback gekregen van mijn docenten dat ik gebruik kan maken van een atmosferisch perspectief. met lagen werken. Als je over een specifieke duin hoverert, dan pas zie je het onderwerp.
+Ik heb als feedback gekregen van mijn docenten dat ik gebruik kan maken van een atmosferisch perspectief. met lagen werken. Als je over een specifieke duin hoverert, dan pas zie je het onderwerp. Daarom ben ik nu van plan om het verticale scroll-idee verder uit te werken. Met deze feedback kan ik zeker iets leuks doen en veel leren over wat er allemaal te doen is in HTML, CSS.
 
 **Practicum Grid 101 + Media queries 101**
 
@@ -173,13 +173,37 @@ _Leg uit wanneer een website 'lelijk' wordt en geef voorbeelden wat je kan doen 
 _Vertel welke volgende stap je neemt om je website responsive te maken.:_ Door via inspect te kijken hoe mijn site eruitziet voor mobielen, telefoon en met die aanpassingen te maken hoe groot content moet zijn.
 
 _Kun je het ontwerp en de bouw van je eigen Garden (zo uit je hoofd) onderbouwen in Webby vocabulair?:_ Niet alles, maar wat ik wel weet uit mijn hoofd van Webby is dat mijn site adept op of je dark of light mode aan hebt en hoe groot je scherm is.
-Vandaag hebben we de meest en minst webby-site geanalyseerd in een groep van een lijst vol met sites. Ook hebben we een artikel gelezen over het concept van digitale gardens. Wat is een digitale gardens? Wat was het allererste? en wat is de verschil tussen 1 en een reguliere site? ook heb ik een begin gemaakt aan Opdracht 3 – verzamelen van inspiratie, en Practicum Light & Dark theme.
 
-De checkout vragen voor vandaag:
-Leg uit wat een digital garden is en waarom dat anders is dan een reguliere website: Een digital garden is een site waar de eigenaar zijn hobby's en interesses wellicht verzamelt met connecties aan elkaar. in een en het concept van stream is afwezig.
-Leg uit wat een website 'webby' maakt en welke websites jou het meeste inspireren.: als de site aan deze punten bevat: Apatief, interactief, toegankelijk, volwassen en expressief. en tot nu toe inspireert Melonland mij het meest.
-Vertel waar jij mee aan de slag wilt gaan bij het maken van jouw eigen digital garden (let op: dit zijn jouw eerste ideeën, dit kan en mag veranderen in de loop van het programma.: Mijn idee is om wat Marokkaanse culturele dingen te delen.
+# 24/11/2026
 
-17/11/2026
-Presentatie voorbereiden:
-Ik heb vandaag mijn digital garden presentatie in html gemaakt.
+Ik heb vandaag het practicum Everything Images uitgevoerd. Dit practicum ging soepel en snel. komt vast doordat ik coderen steeds beter snap en dat dit practicum wel simpel was.
+
+![alt text](<readme-images/Week_2_Practicum_Everything_images.png (1).png>)
+![alt text](<readme-images/Week_2_Practicum_Everything_images.png (2).png>)
+
+Tijdens het practicum kwam ik op het idee om sterrenachtergrond te maken in Figma en die als een svg in CSS te plaatsen. Deze achtergrond is alleen te zien in de dark mode.
+![alt text](<readme-images/Week_2_process (1).png>)
+
+# 25/11/2026
+
+**workshop 5 Ontwerptheorie**
+
+Vandaag hebben we een opfrissing gekregen over de Gestalt-theorie en ontwerpprincipes. Door deze principes toe te passen, kan ik mijn digital garden verbeteren. Voordat ik daarmee aan de slag ging, hebben we in een groep opdrachten gedaan met schermschetsen. Steeds kreeg iedereen de schets van een ander, waarna ik aanpassingen moest doorvoeren op het gebied van contrast, witruimte of hiërarchie.
+
+![alt text](readme-images/Week_2_Ontwerptheorie_Opdracht_18&19.jpg)
+![alt text](readme-images/Week_2_Ontwerptheorie_Opdracht_20.jpg)
+![alt text](readme-images/Week_2_Ontwerptheorie_Opdracht_21.jpg)
+
+**De checkout vragen voor vandaag:**
+
+_Noem 3 Gestalt- of Design principes op en laat de ander uitleggen wat ze betekenen en doen._
+Symmetrie = elementen netjes gespiegeld hebben, geeft order en vast gevoel
+contrast = overduidelijk andere grootte of kleur geeft aan dat dit element anders is dan het andere.
+Sluiting = hersen van ons kunnen ontbreken en delen vullen als we genoeg van een vorm zien.
+
+_Een grid biedt ruimte om te spelen (vrijheid), maar tegelijkertijd ook eenheid en structuur (vastigheid). Wat wordt hiermee bedoeld?_ Je bent vrij om de structuur aan te passen naar iets anders, maar het blijft een eenheid en/of structuur.
+
+_Welk principe neem je mee in een laatste iteratie van je eigen Garden?_
+visual hierarchy neem ik voor nu me.
+
+# 26/11/2026

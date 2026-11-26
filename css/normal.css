@@ -31,19 +31,20 @@ html:has([value="dark-theme"]:checked) {
 
 label.light_dark {
   width: fit-content;
-  position: fixed; /* Stays pinned to top-right even when scrolling */
+  position: absolute;
   top: 2rem;
   right: 1em;
   z-index: 100;
-  font-size: clamp(3rem, 6vw, 9rem); /* Scales nicely on mobile */
+  font-size: clamp(3rem, 6vw, 9rem);
   cursor: pointer;
 
   input {
-    position: absolute; /* Removes invisible radio button width */
+    position: absolute;
     opacity: 0;
     pointer-events: none;
   }
 }
+
 /**************************
 * MARK: Fonts
 **************************/
@@ -121,6 +122,16 @@ h2 {
   max-width: 250px;
   font-size: clamp(2.5rem, 7vw, 3.125rem);
   font-family: "Chunko", system-ui;
+}
+
+h3 {
+  text-align: center;
+  margin: 1rem auto;
+  width: 100%;
+  max-width: clamp(26em, 26em, 18em);
+  line-height: 1.5;
+  font-size: 1.3em;
+  font-family: "Unageo", system-ui;
 }
 
 p {
